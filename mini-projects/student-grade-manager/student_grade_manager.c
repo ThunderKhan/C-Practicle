@@ -30,7 +30,7 @@ void displayClassStatistics(const Student students[], int count);
 static void clearInputLine(void) {
     int ch;
 
-    while ((ch = getchar()) != '\\n' && ch != EOF) {
+    while ((ch = getchar()) != '\n' && ch != EOF) {
     }
 }
 
