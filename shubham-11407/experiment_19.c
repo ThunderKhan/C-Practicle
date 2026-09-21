@@ -5,7 +5,7 @@ int main() {
     char s1[50] = "Hello";
     char s2[50] = "World";
 
-    printf("Length of s1: %lu\n", strlen(s1));
+    printf("Length of s1: %zu\n", strlen(s1));
     strcpy(s1, s2);
     strcat(s1, " C");
     printf("After copy & concat: %s\n", s1);
